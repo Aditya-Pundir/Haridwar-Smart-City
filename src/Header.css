@@ -1,0 +1,21 @@
+nav {
+  background-color: var(--blue);
+}
+a {
+  color: var(--white);
+}
+a:hover {
+  color: var(--cyan);
+}
+.toggler {
+  background-color: var(--white);
+  height: 0.12rem;
+  margin-top: 0.5rem;
+  border-radius: 0.15rem;
+}
+.toggler1 {
+  margin-top: 0.2rem;
+}
+.navLinkActive {
+  color: var(--cyan);
+}

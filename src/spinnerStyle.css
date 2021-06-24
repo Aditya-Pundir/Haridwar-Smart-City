@@ -1,0 +1,14 @@
+.spinner {
+  height: 5rem;
+  width: 5rem;
+  margin: auto;
+  margin-top: 25%;
+  display: block;
+  color: #1d354a;
+  background-color: cyan;
+}
+@media (max-width: 400px) {
+  .spinner {
+    margin-top: 50vh;
+  }
+}

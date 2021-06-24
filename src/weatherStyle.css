@@ -1,0 +1,31 @@
+body {
+  background-color: var(--greyishWhite);
+}
+#NoDataToShow {
+  text-align: center;
+  padding-top: 25%;
+  color: #1d354f;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 2rem;
+  height: 76vh;
+  background-color: var(--blue);
+  color: var(--cyan);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: -1rem 1rem 3rem var(--blue);
+}
+.temperature {
+  margin-top: 13%;
+}
+@media (max-width: 1100px) {
+  .container {
+    margin-top: 7rem;
+  }
+}

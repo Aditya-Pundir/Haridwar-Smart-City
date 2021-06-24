@@ -1,0 +1,8 @@
+.spinner {
+  height: 5rem;
+  width: 5rem;
+  margin: auto;
+  display: block;
+  color: var(--blue);
+  background-color: var(--cyan);
+}

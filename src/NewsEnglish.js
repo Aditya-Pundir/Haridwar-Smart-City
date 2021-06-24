@@ -5,7 +5,8 @@ import "./newsStyle.css";
 import Spinner from "react-bootstrap/Spinner";
 
 export const NewsEnglish = () => {
-  const haridwarUrl = `https://gnews.io/api/v4/top-headlines?q=haridwar&max=10&lang=en&token=${process.env.REACT_APP_NEWS_API_KEY}`;
+  const apiKey = process.env.REACT_APP_NEWS_API_KEY;
+  const haridwarUrl = `https://gnews.io/api/v4/top-headlines?q=haridwar&max=10&lang=en&token=${apiKey}`;
   const [data, setData] = useState();
 
   useEffect(() => {

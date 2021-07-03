@@ -11,11 +11,16 @@ export const NewsEnglish = () => {
 
   useEffect(() => {
     let fetchData = async () => {
+      let unmounted = false;
       // Haridwar News
       let response = await fetch(haridwarUrl);
       let result = await response.json();
-      setData(result.articles);
-      // console.log(result.articles);
+      if (!unmounted) {
+        setData(result.articles);
+      }
+      return () => {
+        unmounted = true;
+      };
     };
     fetchData();
   }, [haridwarUrl]);

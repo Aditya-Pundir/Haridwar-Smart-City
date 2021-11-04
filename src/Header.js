@@ -56,7 +56,7 @@ export const Header = () => {
                 Jokes
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink
                 className="nav-link"
                 title="Covid19-Tracker"
@@ -66,7 +66,7 @@ export const Header = () => {
               >
                 Covid Tracker
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

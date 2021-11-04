@@ -6,7 +6,7 @@ import { Header } from "./Header";
 import { NewsHindi } from "./NewsHindi";
 import { NewsEnglish } from "./NewsEnglish";
 import { Weather } from "./Weather";
-import { CovidDataFetcher } from "./CovidDataFetcher";
+// import { CovidDataFetcher } from "./CovidDataFetcher";
 import { Jokes } from "./Jokes";
 
 function App() {
@@ -66,13 +66,13 @@ function App() {
               return <Weather />;
             }}
           ></Route>
-          <Route
+          {/* <Route
             exact
             path="/covid"
             render={() => {
               return <CovidDataFetcher />;
             }}
-          ></Route>
+          ></Route> */}
           <Route
             exact
             path="/jokes"
